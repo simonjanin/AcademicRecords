@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>ACADEMICCHAINS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ACADEMICCHAINS</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#verification">Verification</a></li>
+            <li><a href="organizations.html">Organizations</a></li>
+            <li class="active"><a href="individuals.html">Individuals</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="individualswrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/aboutwrap -->
+	
+	<div id="about-us-text">
+		<div class="container">
+			<div class="row centered mt mb">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h2>Individual Application</h2>
+					<p>With the form below you can apply to join the AcademiaChain. Please read the <a href="about.html">instructions</a> and the terms of condition before the application process.</p>
+					</div>
+
+			</div><! --/row -->
+			<div class="row mt mb">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-4">
+					<form>
+						<div class="form-group">
+						  <label for="individual-name">First Name:</label>
+						  <input type="text" class="form-control" id="individual-name" placeholder="Enter First Name">
+						</div>
+						<div class="form-group">
+						  <label for="individual-family-name">Family Name:</label>
+						  <input type="text" class="form-control" id="individual-family-name" placeholder="Enter Family Name">
+						</div>
+						<div class="form-group">
+						  <label for="individual-state">State:</label>
+						  <input type="text" class="form-control" id="individual-state" placeholder="Enter State">
+						</div>
+						<div class="form-group">
+						  <label for="individual-organization">University/Organization:</label>
+						  <input type="text" class="form-control" id="individual-organization" placeholder="Enter University/Organization">
+						</div>
+						<div class="form-group">
+						  <label for="individual-mail">Mail:</label>
+						  <input type="text" class="form-control" id="individual-mail" placeholder="Enter Mail">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3"><p>Your application was forwarded. You will receive a email with further details.</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div><! --/container -->
+	</div>
+		
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered" id="social">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="col-lg-3"></div>				
+			</div><! --/row -->
+		</div><! --/container -->
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<p><b>© 2016 AcademicChains</b></p>
+				</div>
+			</div>
+		</div>
+	</div><! --/footerwrap -->
+
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $(window).scroll(function() { // check if scroll event happened
+			if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+			  $(".navbar-default").css("background-color", "#333"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+			} else {
+			  $(".navbar-default").css("background-color", "transparent"); // if not, change it back to transparent
+			}
+		  });
+		});
+	</script>
+
+
+  </body>
+</html>
